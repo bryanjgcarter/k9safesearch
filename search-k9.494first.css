@@ -1,0 +1,44 @@
+.logo {
+    width: 11em;
+}
+
+.main .logo {
+    width: 8em;
+}
+
+/* Mobile Browser styles */
+@media screen and (max-width: 550px) {
+    .main .logo,
+    .cont .logo {
+        width: 7em;
+    }
+    .about h1 label,
+    .prov h1 label {
+        white-space: normal;
+    }
+    .about .logo label,
+    .prov .logo label {
+        line-height: 1.5em;
+    }
+}
+
+.logo {
+    background: transparent url(img/logo_k9-78x78.png) no-repeat 70% 50%;
+    background-size: 78px 78px;
+}
+.main .logo,
+.cont .logo {
+    background: transparent url(img/logo_k9-78x78.png) no-repeat 0 50%;
+    background-size: 78px 78px;
+}
+
+/* Retina display images */
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min--moz-device-pixel-ratio: 2) {
+    .logo {
+        background-image: url(img/logo_k9-156x156.png);
+    }
+    .main .logo,
+    .cont .logo {
+        background-image: url(img/logo_k9-156x156.png);
+    }
+}
