@@ -1,7 +1,13 @@
 .logo {
     width: 11em;
 }
-
+#autocomplete{
+    background-color: white;
+    background-image: url("searchicon.png");
+    background-size: 24px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
 .main .logo {
     width: 8em;
 }
