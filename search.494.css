@@ -8,21 +8,21 @@ b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-  margin:0;
-  padding:0;
-  border:0;
-  outline:0;
-  font-size:100%;
-  font-weight:normal;
-  vertical-align:baseline;
-  background:transparent;
-}                  
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font-weight:normal;
+    vertical-align:baseline;
+    background:transparent;
+}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section { 
+footer, header, hgroup, menu, nav, section {
     display:block;
 }
 
@@ -52,7 +52,7 @@ input, select { vertical-align:middle; }
 
 /* Base font settings */
 body {
-  font:13px/1.231 sans-serif;
+    font:13px/1.231 sans-serif;
 }
 
 /* Redirect styling */
@@ -272,12 +272,12 @@ h1 label {
     margin: 0.25em;
 }
 .irslt {
-    display:inline-block;            
-    #zoom: 1; 
-    #display:inline; 
+    display:inline-block;
+    #zoom: 1;
+    #display:inline;
     vertical-align:middle;
-    #vertical-align: auto;    
-
+    #vertical-align: auto;
+    
     min-width: 12.5em;
     text-align: center;
     width: 23%;
@@ -443,7 +443,7 @@ h1 label {
 }
 /* Colors and styles */
 .rslt .url, .rslt .url a {
-    color: #0E774A;    
+    color: #0E774A;
 }
 .tb, .rslts, .mcnt, .mcnt .acol, .fcnt {
     border-color: #D3E1F9;
@@ -547,7 +547,7 @@ h1 label {
     .cont .hcnt {
         padding: 0.5em;
     }
-
+    
     .rslts, .srch, .hcnt .srch {
         margin: 0;
     }
@@ -596,7 +596,7 @@ h1 label {
     }
     .hcnt .srch {
         padding-left: 8.1em;
-    }    
+    }
     .rslts .srch {
         text-align: center;
     }
