@@ -8,3 +8,6 @@ search bar w/o styling | style added to search bar
 
 
 looking better! :+1: :heavy_check_mark:
+
+
+![autocomp](/screen-shot-autocomp.png)
